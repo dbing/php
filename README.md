@@ -1,3 +1,9 @@
+[![Build Status](https://github.com/betterde/php/actions/workflows/build.yml/badge.svg)](https://github.com/betterde/php/actions/workflows/build.yml/badge.svg)
+[![GitHub issues](https://img.shields.io/github/issues/betterde/php)](https://github.com/betterde/php/issues)
+[![GitHub forks](https://img.shields.io/github/forks/betterde/php)](https://github.com/betterde/php/network)
+[![GitHub stars](https://img.shields.io/github/stars/betterde/php)](https://github.com/betterde/php/stargazers)
+[![GitHub license](https://img.shields.io/github/license/betterde/php)](https://github.com/betterde/php/blob/master/LICENSE)
+
 # Supported architectures
 
 * linux/amd64
