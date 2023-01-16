@@ -11,7 +11,7 @@
 
 # Image Variants
 
-## php:<version>-fpm
+## php:`<version>`-fpm
 
 This variant contains PHP-FPM, which is a FastCGI implementation for PHP. See the PHP-FPM website for more information about PHP-FPM.
 
