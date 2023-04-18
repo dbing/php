@@ -21,17 +21,18 @@ RUN set -eux; \
     docker-php-ext-configure intl; \
     docker-php-ext-install intl; \
     docker-php-ext-install zip; \
+    docker-php-ext-install exif; \
+    docker-php-ext-install pcntl; \
+    docker-php-ext-install bcmath; \
+    docker-php-ext-install mysqli; \
+    docker-php-ext-install opcache; \
+    docker-php-ext-install pdo_mysql; \
     pecl install lzf; \
     pecl install igbinary; \
     pecl install redis; \
     pecl install mongodb; \
     pecl install imagick; \
     docker-php-ext-enable lzf igbinary redis mongodb imagick; \
-    docker-php-ext-install pcntl; \
-    docker-php-ext-install mysqli; \
-    docker-php-ext-install pdo_mysql; \
-    docker-php-ext-install opcache; \
-    docker-php-ext-install exif; \
     apt-get clean; \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*; \
     rm /var/log/lastlog /var/log/faillog
