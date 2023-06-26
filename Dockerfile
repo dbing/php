@@ -36,7 +36,7 @@ RUN set -eux; \
     pecl install redis; \
     pecl install mongodb; \
     pecl install imagick; \
-    docker-php-ext-enable lzf igbinary redis mongodb imagick; \
+    docker-php-ext-enable lzf grpc zstd excimer protobuf igbinary redis mongodb imagick; \
     apt-get clean; \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*; \
     rm /var/log/lastlog /var/log/faillog
