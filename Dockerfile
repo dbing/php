@@ -28,6 +28,10 @@ RUN set -eux; \
     docker-php-ext-install opcache; \
     docker-php-ext-install pdo_mysql; \
     pecl install lzf; \
+    pecl install grpc; \
+    pecl install zstd; \
+    pecl install excimer; \
+    pecl install protobuf; \
     pecl install igbinary; \
     pecl install redis; \
     pecl install mongodb; \
