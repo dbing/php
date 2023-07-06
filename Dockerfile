@@ -53,7 +53,7 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" &&
 ARG WORKDIR=/usr/wwwroot
 WORKDIR ${WORKDIR}
 
-# Configure non-root user.
+# Configure non-root user
 ARG PUID=1000
 ENV PUID ${PUID}
 ARG PGID=1000
@@ -62,7 +62,7 @@ ENV PGID ${PGID}
 RUN groupmod -o -g ${PGID} www-data; \
     usermod -o -u ${PUID} -g www-data www-data
 
-# Configure locale.
+# Configure locale
 ARG LOCALE=POSIX
 ENV LC_ALL ${LOCALE}
 
