@@ -1,4 +1,4 @@
-ARG TAG=8.2-fpm
+ARG TAG=8.1-fpm
 FROM php:${TAG}
 
 LABEL maintainer="George King <george@betterde.com>"
